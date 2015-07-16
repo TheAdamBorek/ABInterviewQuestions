@@ -91,8 +91,6 @@
 			children = (
 				66E494FF1B57C8CD00DD74EE /* AppDelegate.h */,
 				66E495001B57C8CD00DD74EE /* AppDelegate.m */,
-				66E495051B57C8CD00DD74EE /* ViewController.h */,
-				66E495061B57C8CD00DD74EE /* ViewController.m */,
 				66E495081B57C8CD00DD74EE /* Main.storyboard */,
 				66E4950B1B57C8CD00DD74EE /* Images.xcassets */,
 				66E4950D1B57C8CD00DD74EE /* LaunchScreen.xib */,
@@ -132,6 +130,8 @@
 		66E4952A1B57C90F00DD74EE /* RetainCycle */ = {
 			isa = PBXGroup;
 			children = (
+				66E495051B57C8CD00DD74EE /* ViewController.h */,
+				66E495061B57C8CD00DD74EE /* ViewController.m */,
 				66E495241B57C8FB00DD74EE /* Preson.h */,
 				66E495251B57C8FB00DD74EE /* Preson.m */,
 				66E495271B57C90B00DD74EE /* Flat.h */,
