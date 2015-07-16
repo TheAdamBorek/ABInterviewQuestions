@@ -7,21 +7,19 @@
 //
 
 #import "ViewController.h"
-
+#import "Flat.h"
+#import "Preson.h"
 @interface ViewController ()
-
+@property (nonatomic, strong) Flat* flat;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)testNumber1{
+    Flat* flat = [[Flat alloc] init];
+    Preson* person = [[Preson alloc] init];
+    person.flat = flat;
+    [flat.persons addObject:person];
 }
 
 @end
