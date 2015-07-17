@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "Flat.h"
-#import "Preson.h"
+#import "Person.h"
 @interface ViewController ()
 @property (nonatomic, strong) Flat* flat;
 @end
@@ -16,10 +16,10 @@
 @implementation ViewController
 
 - (void)testNumber1{
-    Flat* flat = [[Flat alloc] init];
-    Preson* person = [[Preson alloc] init];
-    person.flat = flat;
-    [flat.persons addObject:person];
+    self.flat = [[Flat alloc] init];
+    Person * person = [[Person alloc] init];
+    person.flat = self.flat;
+    [self.flat.persons addObject:person];
 }
 
 @end

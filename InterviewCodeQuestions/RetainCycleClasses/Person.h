@@ -1,5 +1,5 @@
 //
-//  Preson.h
+//  Person.h
 //  InterviewCodeQuestions
 //
 //  Created by Adam Borek on 16.07.2015.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Flat.h"
 
-@interface Preson : NSObject
+@interface Person : NSObject
 @property (nonatomic, strong) NSString* firstName;
 @property (nonatomic, strong) NSString* lastName;
 @property (nonatomic, strong) Flat* flat;
